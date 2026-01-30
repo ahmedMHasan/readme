@@ -444,7 +444,7 @@ Defaulting to \`null\`.`}var T_=E_,O$=N_;const R_=m.forwardRef(({className:e,val
           width: 100px;
           min-height: 140px;
           background: #f5f5f5;
-          border-right: 1px solid #ddd;
+          /*border-right: 1px solid #ddd;*/
           display: flex;
           align-items: center;
           justify-content: center;
@@ -492,8 +492,9 @@ Defaulting to \`null\`.`}var T_=E_,O$=N_;const R_=m.forwardRef(({className:e,val
         }
         .book-meta-label {
           font-size: 10px;
+          font-weight: bold;
           text-transform: uppercase;
-          color: #888;
+          color: #000;
         }
         .book-sidebar {
           /*width: 80px;*/
@@ -535,9 +536,10 @@ Defaulting to \`null\`.`}var T_=E_,O$=N_;const R_=m.forwardRef(({className:e,val
           min-height: 80px;
         }
         .book-summary-label {
-          font-size: 11px;
+          font-size: 13px;
+          font-weight: bold;
           text-transform: uppercase;
-          color: #888;
+          color: #000;
           margin-bottom: 5px;
         }
         @media print {
